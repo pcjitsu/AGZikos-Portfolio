@@ -1,22 +1,27 @@
+/* Setting global font */
 * {
   font-family: "Courier New", Courier, monospace;
 }
 
+/* Created nav-bar flex box, seperating name and links, align text to center heigh within box */
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
 }
+/* adjusting size of H1 */
 .navbar h1 {
   font-size: 200%;
   font-weight: bold;
 }
+/* Makes links spaced out, in a row opposed to stack, and seperates content */
 .nav-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+/* Adds padding between items */
 .nav-item {
   padding: 0% 2%;
 }
