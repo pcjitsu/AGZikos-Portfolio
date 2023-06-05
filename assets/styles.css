@@ -39,11 +39,14 @@
   padding: 0% 2%;
 }
 .banner {
-  display: relative;
+  position: relative;
   height: 20%;
 }
 .banner h1 {
-  font-size: larger;
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  font-size: 20px;
   text-align: end;
   justify-content: end;
   color: rgb(110, 208, 202);
