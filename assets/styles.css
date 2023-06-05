@@ -9,17 +9,30 @@
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
+  background-color: rgb(66, 66, 68);
+  color: rgb(110, 208, 202);
+  padding: 20px;
 }
 /* adjusting size of H1 */
 .navbar h1 {
   font-size: 200%;
   font-weight: bold;
+  background-color: rgb(110, 208, 202);
+  color: rgb(66, 66, 68);
+  padding-left: 20px;
 }
 /* Makes links spaced out, in a row opposed to stack, and seperates content */
 .nav-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+/* Thickend font and matches folor */
+.nav-links a {
+  color: rgb(110, 208, 202);
+  font-weight: 800;
 }
 /* Adds padding between items */
 .nav-item {
