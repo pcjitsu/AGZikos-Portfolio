@@ -38,3 +38,17 @@
 .nav-item {
   padding: 0% 2%;
 }
+.banner {
+  display: relative;
+  height: 20%;
+}
+.banner h1 {
+  font-size: larger;
+  text-align: end;
+  justify-content: end;
+  color: rgb(110, 208, 202);
+}
+.banner img {
+  width: 100%;
+  height: 100px;
+}
