@@ -63,3 +63,16 @@
   width: 100%;
   height: 100px;
 }
+/* Trying to align main section below */
+.main-section {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  padding: 2% 5%;
+}
+.main-section h2 {
+  color: rgb(66, 66, 68);
+  padding: 5%;
+  border-right: solid black;
+  max-width: 15%;
+}
