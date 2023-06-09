@@ -70,9 +70,10 @@
   flex-direction: row;
   padding: 2% 5%;
 }
-.main-section h2 {
+.main-section > h2 {
   color: rgb(66, 66, 68);
   padding: 5%;
   border-right: solid black;
-  max-width: 15%;
+  max-width: 12%;
+  margin-right: 4%;
 }
