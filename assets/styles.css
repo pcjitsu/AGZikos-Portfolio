@@ -77,3 +77,27 @@
   max-width: 12%;
   margin-right: 4%;
 }
+
+/* Center about me text to H1 Elemetned */
+
+#About > p {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+#Contact > address {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Targets anchor tags in Contact to space them evenly and provide adequate padding */
+#Contact a {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0% 30%;
+}
