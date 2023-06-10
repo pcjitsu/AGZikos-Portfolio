@@ -69,6 +69,7 @@
   display: flex;
   flex-direction: row;
   padding: 2% 5%;
+  /* max-width: 100vh; */
 }
 .main-section > h2 {
   color: rgb(66, 66, 68);
@@ -99,6 +100,10 @@
 }
 .Project {
   border: solid rgb(114, 193, 194) 2px;
+}
+
+.project-desc {
+  background-color: rgb(186, 229, 229);
 }
 
 #Contact > address {
