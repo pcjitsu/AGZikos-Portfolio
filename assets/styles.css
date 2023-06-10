@@ -85,6 +85,19 @@
   align-content: center;
   align-items: center;
 }
+#work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-box {
+  border: solid rgb(114, 193, 194) 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 #Contact > address {
   display: flex;
