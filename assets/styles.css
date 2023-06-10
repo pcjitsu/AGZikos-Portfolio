@@ -93,10 +93,12 @@
 }
 
 .project-box {
-  border: solid rgb(114, 193, 194) 2px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.Project {
+  border: solid rgb(114, 193, 194) 2px;
 }
 
 #Contact > address {
