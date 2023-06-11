@@ -122,6 +122,10 @@ html {
   width: 300px;
   height: 200px;
   position: relative;
+  opacity: 0.7;
+}
+.Project img:hover {
+  opacity: 1;
 }
 
 #Top-image {
@@ -151,3 +155,5 @@ html {
   justify-content: space-evenly;
   padding: 0% 30%;
 }
+
+/* All Media Query Studd Below (Turn Everything into bottom border and Colums */
