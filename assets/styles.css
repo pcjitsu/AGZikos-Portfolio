@@ -69,14 +69,14 @@
   display: flex;
   flex-direction: row;
   padding: 2% 5%;
-  /* max-width: 100vh; */
 }
 .main-section > h2 {
   color: rgb(66, 66, 68);
-  padding: 5%;
-  border-right: solid black;
+  padding: 5% 15% 5% 5%;
+  border-right: solid rgb(110, 208, 202) 8px;
   max-width: 12%;
   margin-right: 4%;
+  font-size: 30px;
 }
 
 /* Center about me text to H1 Elemetned */
@@ -97,13 +97,23 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 2% 0%;
 }
+
 .Project {
   border: solid rgb(114, 193, 194) 2px;
 }
 
+.Project img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
 .project-desc {
   background-color: rgb(186, 229, 229);
+  max-width: 50%;
+  position: absolute;
 }
 
 #Contact > address {
