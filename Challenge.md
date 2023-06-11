@@ -7,10 +7,6 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ## Acceptance Criteria
 
 GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
@@ -21,6 +17,10 @@ WHEN I click one of the links in the navigation DONE
 THEN the UI scrolls to the corresponding section DONE
 WHEN I click on the link to the section about their work Done
 THEN the UI scrolls to a section with titled images of the developer's applications Done
+WHEN I am presented with the developer's first application Done
+THEN that application's image should be larger in size than the others Done
+WHEN I load their portfolio Done
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them Done
 
 ## Grading Requirments
 

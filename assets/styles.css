@@ -29,6 +29,7 @@ html {
   border-bottom-style: solid;
   border-color: rgb(110, 208, 202);
 }
+
 /* Makes links spaced out, in a row opposed to stack, and seperates content */
 .nav-links {
   display: flex;
@@ -63,6 +64,13 @@ html {
   text-align: end;
   justify-content: end;
   color: rgb(110, 208, 202);
+}
+#profile-pic {
+  position: absolute;
+  left: 5%;
+  size: 20%;
+  height: 100px;
+  width: 100px;
 }
 .banner img {
   width: 100%;
@@ -114,6 +122,10 @@ html {
   width: 300px;
   height: 200px;
   position: relative;
+}
+
+#Top-image {
+  width: 600px;
 }
 
 .project-desc {
