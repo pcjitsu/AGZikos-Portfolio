@@ -107,6 +107,7 @@ html {
 
 .Project {
   border: solid rgb(114, 193, 194) 2px;
+  position: relative;
 }
 
 .Project img {
@@ -119,6 +120,8 @@ html {
   background-color: rgb(186, 229, 229);
   max-width: 50%;
   position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 #Contact > address {
