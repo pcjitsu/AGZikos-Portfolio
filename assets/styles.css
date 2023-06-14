@@ -156,4 +156,25 @@ html {
   padding: 0% 30%;
 }
 
-/* All Media Query Studd Below (Turn Everything into bottom border and Colums */
+/* Media Query for Screens to change most items to Colums and switch border to bottom for divisions */
+@media screen and (max-width: 700px) {
+  .nav-links,
+  .main-section,
+  #Contact > address,
+  #Contact a {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main-section > h2 {
+    border-right: none;
+    border-bottom: solid rgb(110, 208, 202) 8px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  #Top-image {
+    width: 300px;
+  }
+}
